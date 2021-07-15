@@ -18,6 +18,7 @@
         "equihash",
         "verushash",
         "x16rv2"
+        "KawPoW"
     ],
     "homepage": "https://github.com/AoD-Technologies/cryptocurrency-pool-server",
     "bugs": {
@@ -54,7 +55,15 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.88.0"
-    },
+        "sha3": "^2.1.4",
+        "sma": "^0.1.1",
+        "redis-commands": "^1.7.0",
+      
+        "safe-buffer": "^5.1.2",
+        "semver": "^5.7.1",
+        
+        
+    },  
     "engines": {
         "node": ">=12.14.1"
     }
